@@ -12,7 +12,8 @@ Sendo assim, é escrito um código em TypeScript, de extensão .ts, que é conve
 
 <h2 align="center">🔨 Funcionalidades do sistema</h2>   
 
-! [gif contendo imagem do funcionamento do sistema] (https://github.com/mariaclaudiapio/estacionamento-typescript/blob/master/sistema-estacionamento.gif)
+
+![Estacionamento - Google Chrome 2022-04-24 13-58-58](https://user-images.githubusercontent.com/91067315/164993259-c6bfc9db-397a-4e15-a556-071828e687ff.gif)
 
 * Funcionalidade 01: Retorna uma mensagem de erro, caso não seja cadastrado o nome do carro e o número de sua placa;
 * Funcionalidade 02: Ao digitar essas duas informações, é gerada uma listagem com o nome, placa, data e hora da entrada do carro no estacionamento;
