@@ -5,7 +5,8 @@ interface Veiculo {
 }
 
 (function () {   
-    const $ = (query: string): HTMLInputElement | null => document.querySelector(query);
+    const $ = (query: string): HTMLInputElement | null => 
+    document.querySelector(query);
 
     function calcTempo(mil: number) {
         const min = Math.floor(mil / 60000);
@@ -35,7 +36,7 @@ interface Veiculo {
                 <td>${veiculo.placa}</td>
                 <td>${veiculo.entrada}</td>
                 <td>
-                <button class="delete" data-placa=${veiculo.placa}>X</button>
+                <button class="delete" data-placa="${veiculo.placa}">X</button>
                 </td>
             `;
             
@@ -54,16 +55,15 @@ interface Veiculo {
                 veiculo => veiculo.placa === placa
                 );
 
-            const tempo = calcTempo(
-                new Date().getTime() - new Date(entrada).getTime()
-                );
-
+            const tempo = calcTempo(new Date().getTime() - new Date(entrada).getTime());
+              
             if(
                 !confirm(`O veículo ${nome} permaneceu no pátio por ${tempo}. Deseja encerrar?`)
             )
             return;
 
-        salvar(ler().filter((veiculo) => veiculo.placa !== placa));
+        salvar(ler().filter(veiculo => veiculo.placa !== placa));
+        render();
         }
 
         function render() {

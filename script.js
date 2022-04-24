@@ -21,7 +21,7 @@
                 <td>${veiculo.placa}</td>
                 <td>${veiculo.entrada}</td>
                 <td>
-                <button class="delete" data-placa=${veiculo.placa}>X</button>
+                <button class="delete" data-placa="${veiculo.placa}">X</button>
                 </td>
             `;
             (_a = row.querySelector(".delete")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", function () {
@@ -36,7 +36,8 @@
             const tempo = calcTempo(new Date().getTime() - new Date(entrada).getTime());
             if (!confirm(`O veículo ${nome} permaneceu no pátio por ${tempo}. Deseja encerrar?`))
                 return;
-            salvar(ler().filter((veiculo) => veiculo.placa !== placa));
+            salvar(ler().filter(veiculo => veiculo.placa !== placa));
+            render();
         }
         function render() {
             $("#patio").innerHTML = "";
