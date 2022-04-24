@@ -12,6 +12,9 @@ Sendo assim, é escrito um código em TypeScript, de extensão .ts, que é conve
 
 <h2 align="center">🔨 Funcionalidades do sistema</h2>   
 
+<p align="center">
+ <img width="470" src="sistema-estacionamento.gif">
+</p>
 
 ![Estacionamento - Google Chrome 2022-04-24 13-58-58](https://user-images.githubusercontent.com/91067315/164993259-c6bfc9db-397a-4e15-a556-071828e687ff.gif)
 
