@@ -26,7 +26,7 @@ Sendo assim, é escrito um código em TypeScript, de extensão .ts, que é conve
 <h2 align="center">👩🏽‍💻 Tecnologias Utilizadas</h2>   
 
 * HTML;
-* CSS
+* CSS;
 * JavaScript;
 * TypeScript;
 
@@ -36,7 +36,7 @@ Sendo assim, é escrito um código em TypeScript, de extensão .ts, que é conve
 
 <h2 align="center">🛠️ Como rodar o projeto</h2> 
 
-Baixe os programas 'index.html', 'reset.css', 'script.js' e 'style.css'. Clique duas vezes no programa 'index.html', logo, o projeto rodará no seu navegador.
+Baixe os arquivos 'index.html', 'reset.css', 'script.js' e 'style.css'. Clique duas vezes no arquivo 'index.html'. Logo, o projeto rodará no seu navegador.
 
 
 
