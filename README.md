@@ -13,7 +13,7 @@ Sendo assim, é escrito um código em TypeScript, de extensão .ts, que é conve
 <h2 align="center">🔨 Funcionalidades do sistema</h2>   
 
 <p align="center">
- <img width="600" src="sistema-estacionamento.gif">
+ <img width="60%" src="sistema-estacionamento.gif">
 </p>
 
 * Funcionalidade 01: Retorna uma mensagem de erro, caso não seja cadastrado o nome do carro e o número de sua placa;
